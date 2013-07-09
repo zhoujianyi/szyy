@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{55A0EAA0-ACC3-4800-A433-F79E86BD6D65}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>datacut</RootNamespace>
+    <AssemblyName>datacut</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="images\041570.gif" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\1.png" />
+    <Content Include="images\10.png" />
+    <Content Include="images\10458.jpg" />
+    <Content Include="images\111.JPG" />
+    <Content Include="images\1123.jpg" />
+    <Content Include="images\1124.jpg" />
+    <Content Include="images\1125.jpg" />
+    <Content Include="images\123124.jpg" />
+    <Content Include="images\19.jpg" />
+    <Content Include="images\19_1.jpg" />
+    <Content Include="images\1_r1_c1.png" />
+    <Content Include="images\1_r1_c2.png" />
+    <Content Include="images\1_r1_c3.png" />
+    <Content Include="images\1_r2_c1.png" />
+    <Content Include="images\1_r2_c2.png" />
+    <Content Include="images\1_r2_c3.png" />
+    <Content Include="images\1_r3_c1.png" />
+    <Content Include="images\1_r3_c2.png" />
+    <Content Include="images\1_r3_c3.png" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\20060518284.jpg" />
+    <Content Include="images\20071115161312.JPG" />
+    <Content Include="images\2_08.jpg" />
+    <Content Include="images\437438_6.jpg" />
+    <Content Include="images\444.png" />
+    <Content Include="images\5U.jpg" />
+    <Content Include="images\777.png" />
+    <Content Include="images\888.png" />
+    <Content Include="images\Admin_Login1_0_04.gif" />
+    <Content Include="images\Admin_Login1_0_05.gif" />
+    <Content Include="images\Admin_Login1_0_09.gif" />
+    <Content Include="images\Admin_Login1_0_15.gif" />
+    <Content Include="images\Admin_Login1_0_19.gif" />
+    <Content Include="images\b17-1.gif" />
+    <Content Include="images\b17.gif" />
+    <Content Include="images\back.png" />
+    <Content Include="images\background.png" />
+    <Content Include="images\banner.png" />
+    <Content Include="images\banner1.jpg" />
+    <Content Include="images\bbt1.png" />
+    <Content Include="images\bbt2.png" />
+    <Content Include="images\bbt3.png" />
+    <Content Include="images\bbt4.png" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\blue3_title.gif" />
+    <Content Include="images\bottom_bg.gif" />
+    <Content Include="images\bottom_top.gif" />
+    <Content Include="images\bt002-1.JPG" />
+    <Content Include="images\bt002-1.png" />
+    <Content Include="images\bt002.jpg" />
+    <Content Include="images\bt002.png" />
+    <Content Include="images\bt003-1.png" />
+    <Content Include="images\bt003.jpg" />
+    <Content Include="images\bt003.png" />
+    <Content Include="images\bt004-1.png" />
+    <Content Include="images\bt004.jpg" />
+    <Content Include="images\bt004.png" />
+    <Content Include="images\bt005-1.png" />
+    <Content Include="images\bt005.jpg" />
+    <Content Include="images\bt005.png" />
+    <Content Include="images\bt006-1.png" />
+    <Content Include="images\bt006.jpg" />
+    <Content Include="images\bt006.png" />
+    <Content Include="images\bt007-1.png" />
+    <Content Include="images\bt007.jpg" />
+    <Content Include="images\bt007.png" />
+    <Content Include="images\bt008-1.png" />
+    <Content Include="images\bt008.jpg" />
+    <Content Include="images\bt008.png" />
+    <Content Include="images\buding.png" />
+    <Content Include="images\but-blue.jpg" />
+    <Content Include="images\chilun.png" />
+    <Content Include="images\chui2.gif" />
+    <Content Include="images\copyright.gif" />
+    <Content Include="images\down.png" />
+    <Content Include="images\e03.gif" />
+    <Content Include="images\e05.gif" />
+    <Content Include="images\e1.jpg" />
+    <Content Include="images\e2.jpg" />
+    <Content Include="images\e3.jpg" />
+    <Content Include="images\fon01.gif" />
+    <Content Include="images\gangbi.jpg" />
+    <Content Include="images\gangbi.png" />
+    <Content Include="images\gangbi2.png" />
+    <Content Include="images\gangbi3.jpg" />
+    <Content Include="images\gangbi3.png" />
+    <Content Include="images\green.JPG" />
+    <Content Include="images\header_right.gif" />
+    <Content Include="images\j10b.jpg" />
+    <Content Include="images\j10c.jpg" />
+    <Content Include="images\j10d.jpg" />
+    <Content Include="images\j10f.jpg" />
+    <Content Include="images\j10g.jpg" />
+    <Content Include="images\jianhuatubiao1_0398.jpg" />
+    <Content Include="images\left.png" />
+    <Content Include="images\left1.png" />
+    <Content Include="images\left2.png" />
+    <Content Include="images\login.png" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\man1.png" />
+    <Content Include="images\newtop.jpg" />
+    <Content Include="images\newtop.png" />
+    <Content Include="images\newtop2.png" />
+    <Content Include="images\newtop3.png" />
+    <Content Include="images\Open-Datacut.png" />
+    <Content Include="images\rbj-1.jpg" />
+    <Content Include="images\rbj.jpg" />
+    <Content Include="images\right.png" />
+    <Content Include="images\right1.png" />
+    <Content Include="images\right2.png" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\sz1_038.jpg" />
+    <Content Include="images\sz1_043.jpg" />
+    <Content Include="images\sz2_101.jpg" />
+    <Content Include="images\test1.jpg" />
+    <Content Include="images\test2.jpg" />
+    <Content Include="images\test2.png" />
+    <Content Include="images\test3.png" />
+    <Content Include="images\test4.png" />
+    <Content Include="images\test5.jpg" />
+    <Content Include="images\test7.png" />
+    <Content Include="images\test8.png" />
+    <Content Include="images\text1.swf" />
+    <Content Include="images\text2.swf" />
+    <Content Include="images\text3.swf" />
+    <Content Include="images\text4.swf" />
+    <Content Include="images\title01.gif" />
+    <Content Include="images\title_bg_show.gif" />
+    <Content Include="images\top.png" />
+    <Content Include="images\top1.gif" />
+    <Content Include="images\top2.gif" />
+    <Content Include="images\topright.png" />
+    <Content Include="images\u=3652659501,3870542473&amp;fm=0&amp;gp=-22.jpg" />
+    <Content Include="images\w1.jpg" />
+    <Content Include="images\W10.jpg" />
+    <Content Include="images\w2.jpg" />
+    <Content Include="images\w3-1.JPG" />
+    <Content Include="images\w3.jpg" />
+    <Content Include="images\w4.jpg" />
+    <Content Include="images\w46.jpg" />
+    <Content Include="images\w47-1.JPG" />
+    <Content Include="images\w47.jpg" />
+    <Content Include="images\w48.jpg" />
+    <Content Include="images\w49.jpg" />
+    <Content Include="images\w5.jpg" />
+    <Content Include="images\w50.jpg" />
+    <Content Include="images\w6.jpg" />
+    <Content Include="images\w67.jpg" />
+    <Content Include="images\w68.jpg" />
+    <Content Include="images\w69.jpg" />
+    <Content Include="images\w7.jpg" />
+    <Content Include="images\w70.jpg" />
+    <Content Include="images\w70_1.jpg" />
+    <Content Include="images\w71.jpg" />
+    <Content Include="images\w72.jpg" />
+    <Content Include="images\w72.png" />
+    <Content Include="images\w73.jpg" />
+    <Content Include="images\w74-1.jpg" />
+    <Content Include="images\w74.jpg" />
+    <Content Include="images\w75.jpg" />
+    <Content Include="images\w76.jpg" />
+    <Content Include="images\w78.jpg" />
+    <Content Include="images\w79.jpg" />
+    <Content Include="images\w8.jpg" />
+    <Content Include="images\w80.jpg" />
+    <Content Include="images\w81-04.jpg" />
+    <Content Include="images\w83.jpg" />
+    <Content Include="images\w84.jpg" />
+    <Content Include="images\w87.jpg" />
+    <Content Include="images\w88.jpg" />
+    <Content Include="images\w9-1.JPG" />
+    <Content Include="images\w9.jpg" />
+    <Content Include="images\w91.jpg" />
+    <Content Include="images\w95.jpg" />
+    <Content Include="images\w9_1.jpg" />
+    <Content Include="images\zhonghebiaoshi1_0316.jpg" />
+    <Content Include="images\zhonghebiaoshi1_0437.jpg" />
+    <Content Include="images\zhonghebiaoshi1_0465.jpg" />
+    <Content Include="images\主页.jpg" />
+    <Content Include="images\北航1.jpg" />
+    <Content Include="images\北航2.jpg" />
+    <Content Include="images\图片1.jpg" />
+    <Content Include="images\多字段.bmp" />
+    <Content Include="images\按钮.bmp" />
+    <Content Include="images\按钮.png" />
+    <Content Include="images\授之以鱼1.jpg" />
+    <Content Include="images\无标题.bmp" />
+    <Content Include="images\清除按钮.bmp" />
+    <Content Include="images\确定按钮.bmp" />
+    <Content Include="images\简单.bmp" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="专家主界面.aspx" />
+    <Content Include="专家发消息界面.aspx" />
+    <Content Include="专家打分界面.aspx" />
+    <Content Include="专家打分界面2.aspx" />
+    <Content Include="专家检索界面.aspx" />
+    <Content Include="顾客主界面.aspx" />
+    <Content Include="登录.aspx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="商家主界面.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DAO.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Grade.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="专家主界面.aspx.cs">
+      <DependentUpon>专家主界面.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="专家主界面.aspx.designer.cs">
+      <DependentUpon>专家主界面.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="专家发消息界面.aspx.cs">
+      <DependentUpon>专家发消息界面.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="专家发消息界面.aspx.designer.cs">
+      <DependentUpon>专家发消息界面.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="专家打分界面.aspx.cs">
+      <DependentUpon>专家打分界面.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="专家打分界面.aspx.designer.cs">
+      <DependentUpon>专家打分界面.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="专家打分界面2.aspx.cs">
+      <DependentUpon>专家打分界面2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="专家打分界面2.aspx.designer.cs">
+      <DependentUpon>专家打分界面2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="专家检索界面.aspx.cs">
+      <DependentUpon>专家检索界面.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="专家检索界面.aspx.designer.cs">
+      <DependentUpon>专家检索界面.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="顾客主界面.aspx.cs">
+      <DependentUpon>顾客主界面.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="顾客主界面.aspx.designer.cs">
+      <DependentUpon>顾客主界面.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="商家主界面.aspx.cs">
+      <DependentUpon>商家主界面.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="商家主界面.aspx.designer.cs">
+      <DependentUpon>商家主界面.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="登录.aspx.cs">
+      <DependentUpon>登录.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="登录.aspx.designer.cs">
+      <DependentUpon>登录.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\test4.emf" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51555</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
